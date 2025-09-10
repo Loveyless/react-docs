@@ -4,7 +4,6 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   title: "react docs",
   base: "/react-docs/",
-  outDir: "./docs",
   description: "this is react docs for xiaoman",
   head: [
     ['link', { rel: 'icon', href: '/react.ico' }]
